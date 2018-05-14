@@ -2,15 +2,17 @@ body {
   background-color: #fff;
   color: #333;
   margin: 33px;
-  font-family: verdana, arial, helvetica, sans-serif;
+  //font-family: verdana, arial, helvetica, sans-serif;
+  font-family: "Mini_Serif-bold";
   font-size: 13px;
   line-height: 18px;
 }
 
 p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
+  //font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
+  font-family: "Mini_Serif-regular";
 }
 
 pre {
@@ -81,4 +83,21 @@ div {
 
 label {
   display: block;
+}
+
+
+@font-face {
+  font-family: 'Mini_Serif-bold';
+  src: font-url('mini_serif-bold-webfont.eot');
+  src: font-url('mini_serif-bold-webfont.eot?#iefix') format('embedded-opentype'),
+  font-url('mini_serif-bold-webfont.woff2') format('woff2'),
+  font-url('mini_serif-bold-webfont.woff') format('woff')
+}
+
+@font-face {
+  font-family: 'Mini_Serif-regular';
+  src: font-url('mini_serif-regular-webfont.eot');
+  src: font-url('mini_serif-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  font-url('mini_serif-regular-webfont.woff2') format('woff2'),
+  font-url('mini_serif-regular-webfont.woff') format('woff')
 }
