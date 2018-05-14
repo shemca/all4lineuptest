@@ -3,8 +3,6 @@
 <head>
   <meta charset="utf-8">
   <title>MINI ALL4 LINEUP</title>
-  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-
 </head>
 <body>
 <div class="container ">
@@ -54,15 +52,15 @@
   </div>
   <div class="item item3">
       <% carfirst = Car.first %>
-        <div class="infopanel2 infofirst">
-          <div class="infotitle">
+        <div class="carlist carfirst">
+          <div class="carlisttitle">
             <h4> <%= carfirst.name %></h4>
             <h4><%= carfirst.price %></h4>
           </div>
-          <div class="infopic">
+          <div class="carlistpic">
             <%= image_tag carfirst.photo %>
           </div>
-          <div class="infoinfo" >
+          <div class="carlistinfo" >
             <p><b>Retailer:</b> <%= carfirst.retailer %></p>
             <p><b>Kilometres:</b> <%= carfirst.kilometres %></p>
             <p><b>Transmission:</b> <%= carfirst.transmission %></p>
@@ -71,21 +69,22 @@
             <p><b>VIN:</b> <%= carfirst.vin %></p>
             <p><b>Drive Train:</b> <%= carfirst.drivetrain %></p>
           </div>
-          <div class="infobutton">
+          <div class="carlistbutton">
             <button class="view_details_button">VIEW DETAILS</button>
             <button class="book_test_drive_button">BOOK A TEST DRIVE</button>
           </div>
         </div>
+
     <% carlast = Car.last %>
-    <div class="infopanel2 infosecond">
-      <div class="infotitle">
+    <div class="carlist carsecond">
+      <div class="carlisttitle">
         <h4> <%= carlast.name %></h4>
         <h4><%= carlast.price %></h4>
       </div>
-      <div class="infopic">
+      <div class="carlistpic">
         <%= image_tag carlast.photo %>
       </div>
-      <div class="infoinfo">
+      <div class="carlistinfo">
         <p><b>Retailer:</b> <%= carlast.retailer %></p>
         <p><b>Kilometres:</b> <%= carlast.kilometres %></p>
         <p><b>Transmission:</b> <%= carlast.transmission %></p>
@@ -94,10 +93,9 @@
         <p><b>VIN:</b> <%= carlast.vin %></p>
         <p><b>Drive Train:</b> <%= carlast.drivetrain %></p>
       </div>
-      <div class="infobutton">
+      <div class="carlistbutton">
         <button class="view_details_button">VIEW DETAILS</button>
         <button class="book_test_drive_button">BOOK A TEST DRIVE</button>
-
       </div>
 
     </div>
