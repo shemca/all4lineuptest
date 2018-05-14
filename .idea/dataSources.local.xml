@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="postgres@localhost" uuid="3aa1aef5-5804-401b-99d0-db823d7918a4">
+      <database-info product="PostgreSQL" version="9.3.22" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.1.1">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>user</user-name>
+      <introspection-schemas>postgres:public</introspection-schemas>
+    </data-source>
+    <data-source name="all4lineuptest_development" uuid="e02a7836-5167-41ae-a38f-d58ead4e351e">
+      <database-info product="PostgreSQL" version="9.3.22" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.1.1">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>user</user-name>
+      <introspection-schemas>postgres:public</introspection-schemas>
+    </data-source>
+  </component>
+</project>
